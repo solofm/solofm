@@ -66,7 +66,7 @@ export default function Faq() {
   const secondColumn = faqData.slice(halfLength);
 
   return (
-    <section className="bg-pink-50/70 px-4 py-20">
+    <section id="faq" className="bg-pink-50/70 px-4 py-20">
       <div className="mx-auto max-w-7xl">
         <h2 className="mb-12 text-center text-4xl font-medium tracking-tight md:text-5xl text-p4">
           Frequently Asked Questions

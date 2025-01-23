@@ -13,7 +13,7 @@ const features = [
 
 export default function Features() {
   return (
-    <section className="w-full py-12 md:py-24 lg:py-32 bg-gray-50">
+    <section id="about us" className="w-full py-12 md:py-24 lg:py-32 bg-gray-50">
       <div className="container px-4 md:px-6">
         <div className="grid gap-6 lg:grid-cols-[1fr,1fr] lg:gap-12 items-center">
           <div className="flex flex-col gap-8">

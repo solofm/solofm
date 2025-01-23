@@ -22,7 +22,7 @@ const Header = () => {
   const NavLink = ({ title }) => (
     <LinkScroll
       onClick={() => setIsOpen(false)}
-      to={title}
+      to={title.toLowerCase()}
       offset={-100}
       spy
       smooth
@@ -59,9 +59,9 @@ const Header = () => {
             <nav className="max-lg:relative max-lg:z-2 max-lg:my-auto">
               <ul className="flex max-lg:block max-lg:px-12">
                 <li className="nav-li">
-                  <NavLink title="offerings" />
+                  <NavLink title="about us" />
                   <div className="dot" />
-                  <NavLink title="models" />
+                  <NavLink title="offerings" />
                 </li>
 
                 <li className="nav-logo">

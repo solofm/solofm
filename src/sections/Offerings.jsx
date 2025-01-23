@@ -7,7 +7,7 @@ import { Card } from "../components/Card"
 
 export default function Offerings() {
   return (
-    <div className="min-h-screen bg-pink-50/30 p-4 md:p-8">
+    <div id="offerings" className="min-h-screen bg-pink-50/30 p-4 md:p-8">
       <div className="mx-auto max-w-6xl">
         <h1 className="mb-16 mt-16 text-center text-4xl font-medium tracking-tight text-p4 md:text-6xl">
           Our Offerings

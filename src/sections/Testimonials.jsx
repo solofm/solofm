@@ -5,7 +5,7 @@ const Testimonials = () => {
   const halfLength = Math.floor(testimonials.length / 2);
 
   return (
-    <section className="relative z-2 py-24 md:py-28 lg:py-40 bg-pink-50/70">
+    <section id="testimonials" className="relative z-2 py-24 md:py-28 lg:py-40 bg-pink-50/70">
       <div className="container block lg:flex">
         <div className="testimonials_head-res relative z-2 mr-20 flex-300">
           <h3 className="h3 max-md:h5 text-p4">Words from our clients</h3>
