@@ -1,4 +1,4 @@
-import { Element, Link as LinkScroll } from "react-scroll";
+import { Element } from "react-scroll";
 import { Card } from "../components/Card.jsx"
 import { Check } from "lucide-react"
 
