@@ -3,6 +3,10 @@ import { Card } from "../components/Card.jsx"
 import { Check } from "lucide-react"
 
 const Hero = () => {
+  const handleApplyNow = () => {
+    window.location.href = "https://form.typeform.com/to/kbVHp9EY";
+  };
+
   return (
     <section className="relative pt-60 pb-40 max-lg:pt-52 max-lg:pb-36 max-md:pt-36 max-md:pb-32">
       <Element className="flex flex-col md:flex-row items-center sm:px-8 md:px-20 lg:px-28 xl:px-36 justify-center w-full h-full" name="hero">
@@ -17,13 +21,13 @@ const Hero = () => {
             <p className="max-w-440 mb-14 body-1 max-md:mb-10 text-black">
               Embrace Your Desired Lifestyle, and Enjoy The Journey To Success
             </p>
-            <LinkScroll to="features" offset={-100} spy smooth>
-            <button className="shadow-[0_4px_14px_0_rgb(0,0,0,10%)] hover:shadow-[0_6px_20px_rgba(93,93,93,23%)] px-8 py-2 bg-[#fff] text-[#696969] rounded-md font-light transition duration-200 ease-linear">
+            <button 
+              onClick={handleApplyNow}
+              className="shadow-[0_4px_14px_0_rgb(0,0,0,10%)] hover:shadow-[0_6px_20px_rgba(93,93,93,23%)] px-8 py-2 bg-[#fff] text-[#696969] rounded-md font-light transition duration-200 ease-linear"
+            >
               Apply Now
             </button>
-            </LinkScroll>
           </div>
-
         </div>
 
         <div className="relative h-[500px] w-full md:w-[600px]">
